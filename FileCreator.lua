@@ -1,5 +1,4 @@
 
-function CreateFiles()
 	
 	if not isfolder("MTOOLS") then
 
@@ -39,6 +38,4 @@ function CreateFiles()
 
 
 
-end
 
-CreateFiles()
