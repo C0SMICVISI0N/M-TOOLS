@@ -1,4 +1,5 @@
 
+function CreateFiles()
 	
 	if not isfolder("MTOOLS") then
 
@@ -38,4 +39,6 @@
 
 
 
+end
 
+CreateFiles()
