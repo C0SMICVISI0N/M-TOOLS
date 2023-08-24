@@ -14,7 +14,7 @@ function CreateFiles()
 	end
 
 	if not isfile("MTOOLS/CONFIG/Config.lua") then
-loadf
+
 		writefile("MTOOLS/CONFIG/Config.lua", "local config = {['ScriptDecompiler'] = {['StartOpened'] = true; ['ToggleKey'] = Enum.KeyCode.RightAlt;};} return config")
 
 	end
